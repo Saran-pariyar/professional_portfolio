@@ -28,11 +28,20 @@
 html {
   scroll-behavior: smooth;
 }
-
+/* width */
 ::-webkit-scrollbar {
-  display: none;
+  width: 15px;
 }
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(12, 157, 201); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(16, 100, 126); 
+}
 body {
   font-family: "Poppins", sans-serif;
   background: var(--color-bg);

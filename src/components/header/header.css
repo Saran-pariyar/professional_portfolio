@@ -38,15 +38,14 @@ header {
 
 /* ========== ME ========== */
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
+  /* background: linear-gradient(var(--color-primary), transparent); */
   width: 22rem;
-  height: 30rem;
+  height: 50%;
   position: absolute;
   left: calc(50% - 11rem);
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
-  overflow: hidden;
-  padding: 1rem 1.5rem 1.5rem 1.5rem;
+  /* padding: 1rem 1.5rem .5rem 1.5rem; */
 }
 
 /* ========== SCROLL DOWN ========== */
@@ -65,14 +64,14 @@ header {
     padding-top: 7rem;
     height: 70vh;
   }
-  .me{display : flex; 
+  /* .me{display : flex; 
   justify-content: center; 
   align-items : center; 
-  }
-  .me img{
+  } */
+  /* .me img{
     height: 90%;
     width: auto;
-  }
+  } */
 }
 
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
@@ -80,9 +79,9 @@ header {
   header {
     height: 80vh;
   }
-  .me{
+  /* .me{
     height: 40%;
-  }
+  } */
 
   .header__socials,
   .scroll__down {
