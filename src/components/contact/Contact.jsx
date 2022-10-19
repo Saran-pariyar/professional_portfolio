@@ -1,9 +1,12 @@
 import React from "react";
 import "./contact.css";
 import { RiMessengerLine, RiWhatsappLine } from "react-icons/ri";
+import { Fade } from "react-reveal";
+
 
 const Contact = () => {
   return (
+    <Fade bottom>
     <section id="contact">
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
@@ -44,6 +47,7 @@ const Contact = () => {
         </form>
       </div>
     </section>
+    </Fade>
   );
 };
 

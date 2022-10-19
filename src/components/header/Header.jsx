@@ -2,11 +2,13 @@ import React from "react";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
 import "./header.css";
+import Fade from 'react-reveal/Fade';
 
 import ME from "../../assets/me2.png";
 
 const Header = () => {
   return (
+    <Fade left>
     <header id="home">
       <div className="container header__container">
         <h5>Hi! I'm</h5>
@@ -22,6 +24,7 @@ const Header = () => {
         </a>
       </div>
     </header>
+    </Fade>
   );
 };
 

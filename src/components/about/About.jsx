@@ -2,9 +2,11 @@ import React from "react";
 import "./about.css";
 import ME from "../../assets/me-about2.jpeg";
 import { FaAward, FaUsers, FaFolderOpen } from "react-icons/fa";
+import { Fade } from "react-reveal";
 
 const About = () => {
   return (
+    <Fade right>
     <section id="about">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
@@ -44,6 +46,7 @@ const About = () => {
         </div>
       </div>
     </section>
+    </Fade>
   );
 };
 

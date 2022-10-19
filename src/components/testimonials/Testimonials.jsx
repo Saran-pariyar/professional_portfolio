@@ -9,6 +9,7 @@ import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import { Fade } from "react-reveal";
 
 const data = [
   {
@@ -39,6 +40,7 @@ const data = [
 
 const Testimonials = () => {
   return (
+    <Fade bottom>
     <section id="testimonials">
       <h5>Review From Clients</h5>
       <h2>Testimonials</h2>
@@ -62,6 +64,7 @@ const Testimonials = () => {
         })}
       </Swiper>
     </section>
+    </Fade>
   );
 };
 

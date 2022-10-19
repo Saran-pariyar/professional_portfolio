@@ -1,9 +1,12 @@
 import React from "react";
 import "./footer.css";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { Fade } from "react-reveal";
+
 
 const Footer = () => {
   return (
+    <Fade bottom>
     <footer>
       <a href="#home" className="footer__logo">
         Portfolio
@@ -44,6 +47,7 @@ const Footer = () => {
       </div>
       
     </footer>
+    </Fade>
   );
 };
 
