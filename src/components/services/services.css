@@ -1,7 +1,6 @@
 .services__container {
   display : flex; 
-  justify-content: center; 
-  
+  justify-content: center;   
 }
 
 .service {
@@ -10,6 +9,7 @@
   border: 1px solid var(--color-primary);
   height: fit-content;
   transition: var(--transition);
+  margin: 0 .2rem;
 }
 
 .service:hover {
@@ -63,9 +63,11 @@
 }
 
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 860px) {
   .services__container {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+    /* grid-template-columns: 1fr;
+    gap: 1.5rem; */
+  flex-wrap: wrap;
+
   }
 }
